@@ -10,9 +10,9 @@ Estimate of time needed to complete: __60min_
 
 Start time: ___2:12pm__
 
-Finish time: _____
+Finish time: __2:50pm___
 
-Actual time needed to complete: _____
+Actual time needed to complete: __38min___
 
 Feature #1: Display images
 Why are we implementing this feature?
@@ -25,9 +25,10 @@ Use AJAX, specifically $.ajax(), to read the provided JSON file.
 Each object should become a new instance of a constructor function. Refer to the data to determine the necessary properties.
 Use jQuery to make a copy of the HTML template of the photo component. For each object, fill in the duplicated template with its properties, then append the copy to the DOM.
 
-Estimate of time needed to complete: _____
+Number and name of feature: _Filter IMGs 2__
+Estimate of time needed to complete: __180min___
 
-Start time: _____
+Start time: __2:59pm___
 
 Finish time: _____
 
