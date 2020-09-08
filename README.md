@@ -4,11 +4,11 @@ peer program with mr. swift.
 Time Estimate
 For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Number and name of feature: ________________________________
+Number and name of feature: ______#1 display images______
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __60min_
 
-Start time: _____
+Start time: ___2:12pm__
 
 Finish time: _____
 
