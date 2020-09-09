@@ -1,0 +1,21 @@
+h1 {
+  font-size: 3em;
+}
+
+img {
+height: 300px;
+width: 200px;
+border: 1px solid black;
+}
+
+section {
+  margin-left: 20px;
+  float: left;
+}
+
+p {
+  margin-top: 10px;
+  height: 100px;
+  width: 200px;
+  
+}
