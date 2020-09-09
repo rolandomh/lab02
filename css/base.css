@@ -1,9 +1,7 @@
-*{
+
+* {
+  font-family: 'PT Sans Narrow', sans-serif;
   box-sizing: border-box;
+  background-color: lightgoldenrodyellow;
 }
 
-body{
-  background-color: #353b3b;
-  font-family: 'Roboto', sans-serif;
-  margin: auto;  
-}
