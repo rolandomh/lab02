@@ -91,9 +91,9 @@ Estimate of time needed to complete: __60 min_
 
 Start time: _3:50__
 
-Finish time: _____
+Finish time: _5:17__
 
-Actual time needed to complete: _____
+Actual time needed to complete: _87 min_
 
 Feature 2: Templating
 Why are we implementing this feature?
@@ -105,15 +105,15 @@ How are we implementing it?
 Create the appropriate Mustache template in your HTML with the same <h2>, <img>, and <p> elements as the jQuery template from the prior lab.
 Refactor the method that renders your images to use Mustache instead of making a copy with jQuery.
 
-Number and name of feature: ________________________________
+Number and name of feature: ______Styling with Flexbox________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __60 min___
 
-Start time: _____
+Start time: __5:18___
 
-Finish time: _____
+Finish time: _5:58___
 
-Actual time needed to complete: _____
+Actual time needed to complete: _40__
 
 Feature 3: Styling with Flexbox
 Why are we implementing this feature?
@@ -124,7 +124,7 @@ Given that a user opens the application in the browser When the user navigates t
 How are we implementing it?
 Refactor your CSS to use Flexbox instead of floats. You are welcome to use a combination of floats and Flexbox, as you see fit.
 
-Number and name of feature: ________________________________
+Number and name of feature: ________Sort the Images___________
 
 Estimate of time needed to complete: _____
 
