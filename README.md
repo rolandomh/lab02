@@ -64,16 +64,16 @@ Style your application using floats.
 Utilize at least one Google font.
 
 Day 2
-
+used: https://www.w3schools.com/howto/howto_css_pagination.asp
 Number and name of feature: ____Pagination__________________
 
 Estimate of time needed to complete: __120 min___
 
 Start time: _1:45____
 
-Finish time: _____
+Finish time: _3:50__
 
-Actual time needed to complete: _____
+Actual time needed to complete: __125min___
 
 Feature 1: Pagination
 Why are we implementing this feature?
@@ -84,11 +84,12 @@ Given that a user opens the application in the browser When the user clicks on a
 How are we implementing it?
 Add navigation for the user to switch between two pages. Each page should render a unique set of images from one of the two provided JSON files.
 Reset the filters, then repopulate them using only keywords from the images currently being displayed.
-Number and name of feature: ________________________________
 
-Estimate of time needed to complete: _____
+Number and name of feature: _______Templating__________
 
-Start time: _____
+Estimate of time needed to complete: __60 min_
+
+Start time: _3:50__
 
 Finish time: _____
 

@@ -3,7 +3,7 @@
 $().ready(() => {
   const animalsArray = [];
 
-  $.ajax('data/page-1.json', {method: 'GET', dataType: 'JSON'})
+  $.ajax('data/page-2.json', {method: 'GET', dataType: 'JSON'})
     .then((hornedAnimals) => {
       hornedAnimals.forEach((horned) => {
         new Animal(horned);
