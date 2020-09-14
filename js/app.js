@@ -9,6 +9,7 @@ $().ready(() => {
         new Animal(horned);
       });
       populateDropdown();
+      numberSort();
       animalsArray.forEach((mammals) => {
         $('main').append(mammals.createHTML());
       });
@@ -22,18 +23,6 @@ $().ready(() => {
     this.image_url = object.image_url;
     animalsArray.push(this);
   }
-
-  // Animal.prototype.render = function(){
-  //   const myTemplate = $('#photo-template').html();
-  //   const $newSection = $(`<section class="${this.keyword}">${myTemplate}</section>`);
-
-  //   $newSection.find('h2').text(this.title);
-  //   $newSection.find('p').text(this.description);
-  //   $newSection.find('img').attr('src', this.image_url);
-
-  //   $('main').append($newSection);
-
-  // }
 
   const populateDropdown = () => {
     const keywordArray = [];
@@ -58,6 +47,42 @@ $().ready(() => {
       }
     });
   }
+  // event handler on change to sort images
+  $('#sorter').on('change', sortHandler);
+  function sortHandler(event) {
+    $('main').empty();
+    if (event.target.value === 'alphabetical') {
+    //call alphabet sort function
+      nameSort();
+    } else if (event.target.value === 'number-horns') {
+    //call number sort function
+      numberSort();
+    }
+    animalsArray.forEach((critter) => {
+      $('main').append(critter.createHtml());
+    });
+  }
+  const numberSort = () => {
+    animalsArray.sort((a, b) => {
+      a = a.horns;
+      b = b.horns;
+      return a - b;
+    });
+  };
+  const nameSort = () => {
+    animalsArray.sort((a, b) => {
+      a = a.title.toLowerCase();
+      b = b.title.toLowerCase();
+      if (a > b) {
+        return 1;
+      } else if (a < b) {
+        return -1;
+      } else {
+        return 0;
+      }
+    });
+  };
+
   Animal.prototype.createHTML = function () {
     let myTemplate = $('#mustacheHelp').html();
     let html = Mustache.render(myTemplate, this);
